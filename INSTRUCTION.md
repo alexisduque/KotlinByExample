@@ -1,74 +1,25 @@
-Instruction
+Instructions
 ===
 
-There is three Exercises:
+Cet atelier est constitué de trois exercices :
 
-* Server with Java 8, SpringBoot 2
+* Serveur SpringBoot 2
 * Android
 * Web
 
-Server Exercise
----
+Vous allez devoir choisir la partie qui vous intéresse, sachant que le début des exercices est quasiment le même.
+Vous aurez le loisir de faire les autres exercices plus tard chez vous le désirez. Dans le doute choisissez l'exercice serveur.
 
-You need to have :
 
-* git
-* a JDK 8 (Does not work yet with Java 9)
-* a Kotlin friendly IDE like [IntelliJ CE](https://www.jetbrains.com/idea/download/)
 
-To start you need to checkout `exo-server` branch.
-Then launch the `./gradlew clean assemble test` command to grad dependencies.
+Pour gagner du temps il est fortement recommandé de préparer son environnement avant l'atelier.
 
-We need to configure the IntelliJ Kotlin plugin, 
-go to `Tools | Kotlin | Configure Kotlin Plugin Updates`,
-then choose `Early Access Preview 1.2`,
-click on `Check for updates now`,
-do the installation,
-then restart your IDE.
+1. récupérer le code avec `git clone http://github.com/MonkeyPatchIo/KotlinByExample`
+2. lancer `./gradlew clean assemble test` ou `./gradlew.bat clean assemble test` pour récupérer le wrapper gradle, avec les plugins prérequis.
+3. vérifier que vous avez bien un IDE à jour qui supporte Kotlin, le cas échéant, installer un éditeur qui fonctionne bien avec Kotlin comme [IntelliJ CE](https://www.jetbrains.com/idea/download/)
+4. vérifier que vous avez la dernière version du plugin pour Kotlin. 
+  Pour cela allez dans `Tools | Kotlin | Configure Kotlin Plugin Updates`, ensuite cliquer sur `Check for updates now`, si besoin faites l'installation, puis redémarrer l'IDE.
+5. vérifier que vous avec un JDK 8 (attention, il y a de fort risque que ça ne fonctionne pas avec une version 9 ou 10). Si besoin utilisez [SDKMAN!](http://sdkman.io/) pour récupérer le SDK.
+6. si vous opter pour l'exercice Android, vérifier que vous avez la version 27 du SDK, et [Android Studio](https://developer.android.com/studio/index.html) en version 3+
 
-The detail Exercise will be explained during the Hands-on.
-
-Android Exercise
----
-
-You need to have :
-
-* git
-* a JDK 8 (Does not work yet with Java 9)
-* [Android Studio 3](https://developer.android.com/studio/index.html)
-* Android SDK 27 pour le build
-
-To start you need to checkout `exo-mobile` branch.
-Then launch the `./gradlew clean assemble test` command to grad dependencies.
-
-We need to configure the Android Studio Kotlin plugin, 
-go to `Tools | Kotlin | Configure Kotlin Plugin Updates`,
-then choose `Early Access Preview 1.2`,
-click on `Check for updates now`,
-do the installation,
-then restart your IDE.
-
-The detail Exercise will be explained during the Hands-on.
-
-Web Exercise
----
-
-You need to have :
-
-* git
-* a JDK 8 (Does not work yet with Java 9)
-* NodeJS (LTS or stable)
-* a Kotlin friendly IDE like [IntelliJ CE](https://www.jetbrains.com/idea/download/)
-* a modern browser
-
-To start you need to checkout `exo-web` branch.
-Then launch the `./gradlew clean assemble test` command to grad dependencies.
-
-We need to configure the IntelliJ Kotlin plugin, 
-go to `Tools | Kotlin | Configure Kotlin Plugin Updates`,
-then choose `Early Access Preview 1.2`,
-click on `Check for updates now`,
-do the installation,
-then restart your IDE.
-
-The detail Exercise will be explained during the Hands-on.
+La suite sera expliquée pendant l'atelier.
